@@ -1,0 +1,178 @@
+@font-face {
+    font-family: "Barbie font";
+    src: url(fonts/barbie.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-barbie{
+    font-family: 'Barbie font';
+}
+
+.barbieh{
+    color: #E0218A;
+    -webkit-text-stroke: 1px black;
+    font-weight: 100;
+}
+* {
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+body {
+    margin: 0;
+    min-width: 600px;
+}
+
+iframe {
+    width: 100%;
+    min-width: 600px;
+    height: 100%;
+    border: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+    padding: 10px;
+}
+
+header{
+    position: relative;
+    display: flex;
+    text-align: center;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    position: absolute;
+    font-size: 100px;
+    font-stretch: condensed;
+}
+
+header > img{
+    width: 100%;
+}
+
+
+.sinopsis {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f68ec7;
+    opacity: 0.85;
+}
+
+h2{
+    opacity: none;
+    text-align: center;
+    font-size: 40px;
+}
+
+.flexbox{
+    display: flex;
+    background-color: #f68ec7EE;
+    height: 100%;
+}
+
+.articulos {
+    border-radius: initial;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    padding: 10px;
+}
+
+article{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 33%;
+    overflow: hidden;
+    opacity: inherit;
+    text-align: center;
+    transition: 0.2s;
+    display: block;
+    position: relative;
+}
+
+article:hover{
+    background-color: #ff60b7;
+}
+
+article h3{
+    background-color: #E0218A;
+    margin: 0;
+    border-radius: 0 0 5px 5px;
+}
+
+.tag{
+    width: 200px;
+    height: 15px;
+    background-color: #E0218A;
+    transform: rotate(-50deg);
+    position: absolute;
+    top: 29px;
+    left: -70px;
+    font-size: 15px;
+}
+
+.imgBox{
+    margin: 0;
+    width: 100%;
+    display: block;
+    border-radius: 0 0 0 0;
+}
+
+aside {
+    border-radius: initial;
+    border-left: 8px solid #E0218D;
+    width: 20%;
+}
+
+.scene{
+    background-color: #f996ce;
+    margin: 0;
+    padding: 15px;
+    border-radius: 0;
+    border-bottom: 10px solid #E0218D;
+    text-align: center;
+}
+
+.ken h3{
+    background-color: #f68ec7;
+    padding: 5px;
+}
+
+.ken{
+    border-radius: initial;
+    width: 100%;
+    background-size: cover;
+    height: 235px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.one{
+    background-image: url(img/barbie/ken.jpg);
+}
+
+.second{
+    background-image: url(img/barbie/ken2.jpg);
+}
+
+.third{
+    background-image: url(img/barbie/ken3.jpg);
+}
